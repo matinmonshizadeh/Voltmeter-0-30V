@@ -33,15 +33,67 @@ This project will be divided into two hardware and software sections, firstly, t
 - Then, we need to solder the female and male pins to the 16th pin of the LCD (The purpose of this work is to sell it because LCD is a relatively expensive part Do not solder directly on the board and instead use a male header pin This LCD can be used in another circuit in the future)
 - In the next step, we will solder the rest of the parts. (resistors, capacitors, connectors. 2-pin male connector, potentiometer, 1x40 female header pin, two-pin terminal, 6-pin switch Regulator, on/off)
 - We solder the 40-pin IC socket on the board A microcontroller is a relatively expensive piece, don't solder it directly on the board Instead, we use a 40-pin IC socket so that it can be connected to the microcontroller in the future used another circuit)
-- 
 
 
+```diff
+- There is a point, this that we solder the parts on the board differently, when We wanted to use a wire jumper to solder it. (Proper spacing)
+```
+
+```diff
+- There is another point, this is how to connect the wire jumper and soldering carefully We have done the simulation.
+```
+
+```diff
+- There is another point, this is that we should be careful when soldering, we should mark the points with Solder carefully because otherwise if we are not careful, a short circuit may occur and cause some parts to burn.
+```
+
+- In the end, we removed the 2-pin female telecommunication connector and 2 pieces of wire to the battery head. We connect a book and a book battery.
+- Now, when we press the 6 Pin Push Button, if we have followed all the steps correctly, LCD turns on, but the LCD screen does not show us any information. now We come to the software and programming part.
 
 
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184623661-3f16b6f5-9376-4d70-9515-833b1b8734b7.jpg" width="360" height="640" />
+</p>
 
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184623753-353c30d8-fd99-4ab9-aa14-040db3f3a45a.jpg" width="640" height="360"/>
+</p>
 
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184623886-c0f20ef5-f79c-4bab-b630-eae4e0372435.jpg" width="360" height="640"/>
+</p>
 
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184623939-19d9db2d-d39c-4f2f-9570-746b47464508.jpg" width="360" height="640"/>
+</p>
 
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184623981-97eb767a-dcbe-46e8-9f35-d55cb85f8b60.jpg" width="360" height="640"/>
+</p>
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184624117-fbbcafe1-059e-4af5-bdcc-6b070ecf7dce.jpg" width="360" height="640"/>
+</p>
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184624174-4806e5c7-0592-4373-80ea-8a3906f9274a.jpg" width="640" height="360"/>
+</p>
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184624262-64b0e71b-be21-4c52-b5df-647ef4141d93.jpg" width="640" height="360"/>
+</p>
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184624334-e03e83c5-e0fd-4c93-8a28-ea2c90d5f73e.jpg" width="640" height="360"/>
+</p>
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184624412-9e78f677-25a0-4cd7-ad83-ac2131789f21.jpg" width="640" height="360"/>
+</p>
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/184624468-afbb1d73-bb40-4a9d-9022-64b21b4f723b.jpg" width="360" height="640"/>
+</p>
 
 
 
