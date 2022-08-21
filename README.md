@@ -95,5 +95,57 @@ This project will be divided into two hardware and software sections, firstly, t
 		<img src="https://user-images.githubusercontent.com/96329489/184624468-afbb1d73-bb40-4a9d-9022-64b21b4f723b.jpg" width="360" height="640"/>
 </p>
 
+### Software Section:
+- For its software part, we need an AVR programmer to write a program. A program is written in C language if I want it in summary form Let me explain, what we do for us in this code is to first write a message for 2 seconds. display the desired (my name is matin) and then when the circuit is connected to the power supply It displays the voltage.
+
+
+### Application of Some Pieces:
+- #### AVR Programmer:
+	It is a device that transfers the code file from the computer to the microcontroller.
+- #### Character LCD (2 X 16):
+	We use LCD to display the voltage read in the microcontroller.
+- #### LM7805 Regulator:
+	You get an input voltage from the regulator, and the regulator gives you a constant and stable output voltage gives (here 5 volts).
+- #### ATmega32 Microcontroller:
+	It is a very small computer. That is, like a real computer, CPU, and memory It has some other parts. We can put a program on it and its microcontroller to execute For that, we use the C programming language because this language is a compiler language and converts the code we write into machine language or the same 0 and 1, and the microcontroller can run it.
+	There is a point, this is a part of the microcontroller, it works to read the voltage. In fact, this part works when it is 1 in the microcontroller, and when it is 0, it does not give us the voltage read.
+	
+	
+### The microcontroller has 40 pins, 8 of which can read the voltage. Pay attention to the image below:
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/185788241-30cf6245-5058-493d-ad03-8ea0f0596701.png" />
+</p>
+
+- From ADC0 to ADC7 they can read voltage.
+- We specify in our code which pin of the microcontroller is going to be the voltage for us (We use PA0 or the same ADC0 here.) (In the code, this part We have determined that if we put 000, it will be adc0 and if 001, it will be adc1 and...))
+
+
+
+## Schematic
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/185788310-403df6e1-32ec-49e2-9473-de96ca81ec74.png" />
+</p>
+
+- As shown in the picture above, we connect the points marked by wire jumpers.
+- For example:
+
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/185788362-85bcc617-6a4d-419a-b5bd-8e2f02f4ee0a.png" />
+</p>
+
+## Final Result:
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/185788423-6ed76ed2-05a9-4a06-bee2-e027ad3c28d5.jpg" width="360" height="640"/>
+</p>
+<p align="center">
+		<img src="https://user-images.githubusercontent.com/96329489/185788425-fe91c6c9-3ee6-40c7-8a87-f8f5ee129b21.jpg" width="360" height="640"/>
+</p>
+
+
+
+##
+
+In appreciation of reza hessami
+
 
 
