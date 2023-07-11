@@ -10,7 +10,7 @@
 7. (43.23K) Ohm Resistor
 8. Solder Wire
 9. Jumper Wire
-10. 2 Pin Male Connector
+10. 2-Pin Male Connector
 11. 2-Pin Female Connector
 12. LM7805 Regulator
 13. 10µF 16V Radial Electrolytic Capacitor
@@ -26,29 +26,29 @@
 23. Two Pieces of wire
 
 ## Project Steps:
-This project will be divided into two hardware and software sections, firstly, the hardware section We will pay for it.
+This project will be divided into two hardware and software sections. Firstly we discuss the hardware section.
 
 ### Hardware Section:
-- At first, we sand the perforated board until its surface is shiny.
-- Then, we need to solder the female and male pins to the 16th pin of the LCD (The purpose of this work is to sell it because LCD is a relatively expensive part Do not solder directly on the board and instead use a male header pin This LCD can be used in another circuit in the future)
+- We first sand the perforated board until its surface is shiny.
+- Then, we need to solder the female and male pins to the LCD's 16th pin of the LCD (The purpose of this work is to use it on other projects because LCD is a relatively expensive part. Do not solder directly on the board; instead, use a male header pin. This LCD can be used in another circuit in the future)
 - In the next step, we will solder the rest of the parts. (resistors, capacitors, connectors. 2-pin male connector, potentiometer, 1x40 female header pin, two-pin terminal, 6-pin switch Regulator, on/off)
-- We solder the 40-pin IC socket on the board A microcontroller is a relatively expensive piece, don't solder it directly on the board Instead, we use a 40-pin IC socket so that it can be connected to the microcontroller in the future used another circuit)
+- We solder the 40-pin IC socket on the board. A microcontroller is relatively expensive; don't solder it directly on the board. Instead, we use a 40-pin IC socket so that it can be connected to the microcontroller in the future using another circuit)
 
 
 ```diff
-- There is a point, this that we solder the parts on the board differently, when We wanted to use a wire jumper to solder it. (Proper spacing)
+- we solder the parts on the board differently when We wanted to use a wire jumper to solder it. (Proper spacing)
 ```
 
 ```diff
-- There is another point, this is how to connect the wire jumper and soldering carefully We have done the simulation.
+- be careful how to connect the wire jumper and soldering carefully. We have done the simulation.
 ```
 
 ```diff
-- There is another point, this is that we should be careful when soldering, we should mark the points with Solder carefully because otherwise if we are not careful, a short circuit may occur and cause some parts to burn.
+- we should be careful when soldering; we should mark the points with Solder carefully because otherwise, if we are not careful, a short circuit may occur and cause some parts to burn.
 ```
 
-- In the end, we removed the 2-pin female telecommunication connector and 2 pieces of wire to the battery head. We connect a book and a book battery.
-- Now, when we press the 6 Pin Push Button, if we have followed all the steps correctly, LCD turns on, but the LCD screen does not show us any information. now We come to the software and programming part.
+- In the end, we removed the 2-pin female telecommunication connector and two pieces of wire to the battery head. We connect a book and a book battery.
+- Now, when we press the 6 Pin Push Button, if we have followed all the steps correctly, LCD turns on, but the LCD screen does not show us any information. Now We come to the software and programming part.
 
 
 <p align="center">
@@ -96,7 +96,7 @@ This project will be divided into two hardware and software sections, firstly, t
 </p>
 
 ### Software Section:
-- For its software part, we need an AVR programmer to write a program. A program is written in C language if I want it in summary form Let me explain, what we do for us in this code is to first write a message for 2 seconds. display the desired (my name is matin) and then when the circuit is connected to the power supply It displays the voltage.
+- We need an AVR programmer to write a program for its software part. A program is written in C language. Let me explain in summer what we should do. What we do for us in this code is first write a message for 2 seconds. Display the desired (my name is Matin), and then it shows the voltage when the circuit is connected to the power supply.
 
 
 ### Application of Some Pieces:
@@ -105,20 +105,19 @@ This project will be divided into two hardware and software sections, firstly, t
 - #### Character LCD (2 X 16):
 	We use LCD to display the voltage read in the microcontroller.
 - #### LM7805 Regulator:
-	You get an input voltage from the regulator, and the regulator gives you a constant and stable output voltage gives (here 5 volts).
+	You get an input voltage from the regulator, which gives you a constant and stable output voltage (here, 5 volts).
 - #### ATmega32 Microcontroller:
-	It is a very small computer. That is, like a real computer, CPU, and memory It has some other parts. We can put a program on it and its microcontroller to execute For that, we use the C programming language because this language is a compiler language and converts the code we write into machine language or the same 0 and 1, and the microcontroller can run it.
-	There is a point, this is a part of the microcontroller, it works to read the voltage. In fact, this part works when it is 1 in the microcontroller, and when it is 0, it does not give us the voltage read.
+	It is a tiny computer. It has some other parts like a real computer, with CPU and memory. We can put a program on it and its microcontroller to execute. For that, we use the C programming language because it is a compiler language and converts the code we write into machine language or the same 0 and 1, and the microcontroller can run it.
+	There is a point, this is a part of the microcontroller, and it works to read the voltage. This part works when it is 1 in the microcontroller, and when it is 0, it does not give us the voltage read.
 	
-	
+
 ### The microcontroller has 40 pins, 8 of which can read the voltage. Pay attention to the image below:
 <p align="center">
 		<img src="https://user-images.githubusercontent.com/96329489/185788241-30cf6245-5058-493d-ad03-8ea0f0596701.png" />
 </p>
 
-- From ADC0 to ADC7 they can read voltage.
+- From ADC0 to ADC7, they can read voltage.
 - We specify in our code which pin of the microcontroller is going to be the voltage for us (We use PA0 or the same ADC0 here.) (In the code, this part We have determined that if we put 000, it will be adc0 and if 001, it will be adc1 and...))
-
 
 
 ## Schematic
@@ -145,7 +144,7 @@ This project will be divided into two hardware and software sections, firstly, t
 
 ##
 
-In appreciation of reza hessami
+In appreciation of Reza Hessami
 
 
 
