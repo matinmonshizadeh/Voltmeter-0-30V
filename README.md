@@ -1,6 +1,6 @@
 # Voltmeter 0-30V
 
-### To make Voltmeter 0-30V you are going to need:
+### To make Voltmeter 0-30V, you are going to need the following:
 1. Perforated Board (1600 points)
 2. Square Battery
 3. Battery Clip Connector
@@ -11,7 +11,7 @@
 8. Solder Wire
 9. Jumper Wire
 10. 2 Pin Male Connector
-11. 2 Pin Female Connector
+11. 2-Pin Female Connector
 12. LM7805 Regulator
 13. 10µF 16V Radial Electrolytic Capacitor
 14. 100µF 16V Radial Electrolytic Capacitor
